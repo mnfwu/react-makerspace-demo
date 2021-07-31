@@ -13,11 +13,11 @@
 }
 
 .scroll-left {
-    animation: scroll-left 270s infinite linear;
+    animation: scroll-left 700s infinite linear;
 }
 
 .scroll-right {
-    animation: scroll-right 270s infinite linear;
+    animation: scroll-right 700s infinite linear;
 }
 
 @keyframes scroll-left {
