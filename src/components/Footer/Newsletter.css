@@ -1,0 +1,58 @@
+.nl-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nl-h4 {
+    text-align: left;
+    font-size: 32px;
+}
+
+.input-flex {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.email-input {
+    max-height: 60px;
+    width: 300px;
+    font-size: 18px;
+    padding: 20px;
+    color: #111118
+}
+
+.submit-btn {
+    height: 68px;
+    width: 178px;
+    background-color: #E2DD8B;
+    color: #111118;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.checkbox {
+    height: 24px;
+    width: 24px;
+    margin-right: 12px;
+}
+
+.icons {
+    display: flex;
+    column-gap: 50px;
+    margin-top: 97px;
+}
+
+.icon {
+    min-height: 36px;
+    min-width: 36px;
+    color: #E2DD8B;
+    cursor: pointer;
+    transition: 250ms ease-in-out;
+}
+
+.icon:hover {
+    color: #FF4100;
+    transition: 250ms ease-in-out;
+}

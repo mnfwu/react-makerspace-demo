@@ -1,0 +1,25 @@
+nav {
+    padding: 2rem 20vw;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li {
+    display: inline-block;  
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #111118;
+    transition: 250ms ease-in-out;
+}
+
+li a:hover {
+    color: #FF4100;
+    transition: 250ms ease-in-out;
+}
