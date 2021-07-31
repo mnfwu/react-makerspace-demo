@@ -32,14 +32,7 @@ header {
     font-size: calc(2em + 1.5vw);
     /* line-height: 4rem; */
     color: #96B7E0;
-    /* max-width: 800px; */
 }
-
-/* @media (max-width: 900px) {
-    .bottom-text {
-        font-size: 1rem;
-    }
-} */
 
 .circle-container {
     position: absolute;
@@ -56,14 +49,9 @@ header {
     border-radius: 50%;
 }
 
-.grn {
-    background-color: #015E32;
-}
-
-.ylw {
-    background-color: #E2DD8B;
-}
-
-.rd {
-    background-color: #FF4100;
+@media (max-height: 640px) {
+    .h1 {
+        font-size: 80px;
+        padding-top: 12rem;
+    }
 }

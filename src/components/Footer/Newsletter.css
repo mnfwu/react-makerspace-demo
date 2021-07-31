@@ -56,3 +56,10 @@
     color: #FF4100;
     transition: 250ms ease-in-out;
 }
+
+@media (max-width: 930px) {
+    .icons {
+        margin-top: 32px;
+        padding-bottom: 32px;
+    }
+}
