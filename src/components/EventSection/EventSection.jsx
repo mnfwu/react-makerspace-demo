@@ -12,7 +12,7 @@ const EventSection = () => {
             <div className="grid-container">
                 <div className="event-grid">
                     {events.map((event, index) => (
-                    <EventCircle key={index} month={event.month} day={event.day} class={event.color} />
+                    <EventCircle key={index} month={event.month} day={event.day} class={event.color} id={event.id} />
                     ))}
                 </div>
             </div>

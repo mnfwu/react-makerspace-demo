@@ -1,17 +1,23 @@
 import React, { useState } from 'react'
 import './App.css'
-import { Route, BrowserRouter as Router } from 'react-router-dom'
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import Home from './pages/Home'
 import Events from './pages/Events'
-import Nav from './components/Nav/Nav.jsx'
+import Event from './pages/Event'
+import About from './pages/About'
+import Projects from './pages/Projects'
 
 function App() {
   const [count, setCount] = useState(10);
 
   return (
+    
     <Router>
-      <Route path="/" exact component={Home} />
-      <Route path="/events" component={Events} />
+      <Route exact path="/" exact component={Home} />
+      <Route exact path="/events" component={Events} />
+      <Route exact path='/event/:id' component={Event} />
+      <Route exact path="/projects" component={Projects} />
+      <Route exact path="/about" component={About} />
     </Router>  
   )
 }
