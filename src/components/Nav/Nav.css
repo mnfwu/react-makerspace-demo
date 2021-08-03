@@ -15,6 +15,7 @@ li {
 li a {
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
     color: #111118;
     transition: 250ms ease-in-out;
 }

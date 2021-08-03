@@ -1,7 +1,7 @@
 import React from 'react'
 import './Events.css'
 import EventCircle from './EventCircle'
-import events from './events.js'
+import events from '../../data/events.js'
 
 console.log(events)
 

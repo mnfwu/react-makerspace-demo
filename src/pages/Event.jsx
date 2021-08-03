@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from '../components/Nav/Nav'
-import events from '../components/EventSection/events';
+import events from '../data/events';
 
 const Event = ({match}) => {
     // const [data, setData] = useState([]);
