@@ -60,3 +60,37 @@ button {
 .blu-txt {
   color: #96B7E0;
 }
+
+.event-card {
+  /* border: 1px solid #333; */
+  display: flex;
+  /* flex-direction: column; */
+  padding: 1rem;
+}
+
+.event-card-inner {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: left;
+  padding: 1rem;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+.two-column-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1rem;
+  padding: 2rem;
+}
+
+@media (max-width: 980px) {
+  .two-column-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
