@@ -1,0 +1,41 @@
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: ease-in-out 300ms; */
+}
+
+.icon-screw {
+    font-size: 22px;
+    transform: rotate(-45deg);
+    color: #E2DD8B;
+}
+
+.inactive{
+    transition: none;
+}
+
+.active {
+    transform: rotate(-90deg);
+    transition: none;
+  }
+
+.mobile-show {
+    visibility: hidden;
+    /* transition: ease-in-out 300ms; */
+}
+
+  @media (max-width: 540px) {
+    .mobile-show {
+        visibility: visible;
+    }
+    .inactive {
+        transition: ease-in-out 300ms;
+    }
+    .active {
+        transition: ease-in-out 300ms;
+    }
+  }
