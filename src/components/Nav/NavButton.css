@@ -1,10 +1,15 @@
 .circle{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
+    position: absolute;
+    /* z-index: 1; */
+    right: 4rem;
+    top: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 12;
     /* transition: ease-in-out 300ms; */
 }
 
@@ -23,6 +28,28 @@
     transition: none;
   }
 
+  .float-inactive {
+    visibility: hidden;
+}
+
+
+  .float-active {
+      /* background-color: black; */
+      visibility: visible;
+  }
+
+.menu-float{
+    height: 100vh;
+    width: 100vw;
+    opacity: 90%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    border: 1px solid black;
+    /* visibility: hidden; */
+}
+
 .mobile-show {
     visibility: hidden;
     /* transition: ease-in-out 300ms; */
@@ -32,6 +59,9 @@
     .mobile-show {
         visibility: visible;
     }
+    /* .menu-float{
+        visibility: visible;
+    } */
     .inactive {
         transition: ease-in-out 300ms;
     }
