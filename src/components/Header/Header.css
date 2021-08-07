@@ -47,6 +47,14 @@ header {
     min-width: 48vw;
     min-height: 48vw;
     border-radius: 50%;
+    opacity: 100%;
+}
+
+.circle-larger {
+    min-width: 60vw;
+    min-height: 60vw;
+    border-radius: 50%;
+    opacity: 100%;
 }
 
 @media (max-height: 640px) {
@@ -54,4 +62,10 @@ header {
         font-size: 80px;
         padding-top: 12rem;
     }
+}
+
+.gear {
+    min-height: 120%;
+    min-width: 120%;
+    transform: translate(-8%, -8%);
 }
