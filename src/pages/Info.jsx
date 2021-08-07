@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../components/Nav/Nav'
+import Footer from '../components/Footer/Footer'
 
 const Info = () => {
     return(
@@ -11,6 +12,7 @@ const Info = () => {
                 <p>We are located at 98 Suzhou Lu, Huangpu District. </p>
                 <p>Check out events page for weekly workshops led by members and monthly open house tours.</p>
             </div>
+            <Footer />
         </div>
     )
 }
