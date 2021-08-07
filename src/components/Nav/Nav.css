@@ -5,7 +5,7 @@ nav {
 ul {
     display: flex;
     justify-content: space-between;
-    
+    visibility: visible;
 }
 
 li {
@@ -24,3 +24,16 @@ li a:hover {
     color: #FF4100;
     transition: 250ms ease-in-out;
 }
+
+/* .mobile-show-nav {
+    visibility: visible;
+} */
+
+  @media (max-width: 540px) {
+    ul {
+        visibility: hidden;
+    }
+    li a {
+        transition: none;
+    }
+  }
