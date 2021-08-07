@@ -23,8 +23,9 @@
 }
 
 .submit-btn {
-    height: 68px;
-    width: 178px;
+    height: 65px;
+    width: 180px;
+    min-width: 120px;
     background-color: #E2DD8B;
     color: #111118;
     font-size: 16px;
@@ -57,9 +58,23 @@
     transition: 250ms ease-in-out;
 }
 
+.txt-left {
+    text-align: left;
+}
+
 @media (max-width: 930px) {
     .icons {
         margin-top: 32px;
         padding-bottom: 32px;
+    }
+
+    .submit-btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 540px) {
+    .submit-btn {
+        font-size: 12px;
     }
 }
