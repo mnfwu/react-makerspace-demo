@@ -1,9 +1,16 @@
 .App {
-  text-align: center;
   background-color: #96B7E0;
   color: white;
   min-height: 100vh;
   overflow: hidden;
+}
+
+.App h1,h2,h3,h4,h5,h6 {
+  text-align: center;
+}
+
+.App p {
+  text-align: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -81,11 +88,36 @@ button {
   margin-bottom: 1rem;
 }
 
+.mb3 {
+  margin-bottom: 3rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
 .two-column-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem 1rem;
   padding: 2rem;
+}
+
+.info-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info-container h2 {
+  font-size: 96px;
+}
+
+.info-container p {
+  font-size: 32px;
+}
+
+.info-container p + p {
+  margin-top: 2rem;
 }
 
 @media (max-width: 980px) {

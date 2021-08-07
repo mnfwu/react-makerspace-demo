@@ -13,7 +13,7 @@ const Events = () => {
                     <div class="event-card">
                         <EventCircle key={index} month={event.month} day={event.day} class={event.color} id={event.id} />
                         <div className="event-card-inner">
-                            <h3 className="mb1">Some information about the event</h3>
+                            <h3 className="mb1 txt-left">Some information about the event</h3>
                             <p>Additional information about this event will go here since this is the space for additional event info don'tcha know.</p>
                         </div>
                     </div>
