@@ -13,7 +13,7 @@ const Newsletter = () => {
             </div>
             <div className="input-flex">
             <input type="checkbox" className="checkbox" />
-            <p className="blu-txt txt-left">Receive news about House of Cards?</p>
+            <p className="blu-txt txt-left">Receive news about Dot Space?</p>
             </div>
 
 
