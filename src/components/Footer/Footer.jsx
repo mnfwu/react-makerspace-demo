@@ -11,9 +11,9 @@ const Footer = () => {
                 <div className="ftr-info">
                     <h4 className="ylw-txt ftr-h4">HOUSE OF CIRCLES</h4>
                     <Link to="/" className="ylw-txt">Home</Link>
-                    <Link to="/projects" className="ylw-txt">Projects</Link>
                     <Link to="/events" className="ylw-txt">Events</Link>
-                    <Link to="/about" className="ylw-txt">About</Link>
+                    <Link to="/info" className="ylw-txt">Info</Link>
+                    <Link to="/projects" className="ylw-txt">Projects</Link>
                     <p className="blu-txt copyright">House of Circles © {year}</p>
                 </div>
                 <Newsletter />
