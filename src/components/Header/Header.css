@@ -29,7 +29,7 @@ header {
 
 .bottom-text {
     margin: calc(15rem + 15vw) 7vw auto 7vw;
-    font-size: calc(2em + 1.5vw);
+    font-size: calc(2em + 1vw);
     /* line-height: 4rem; */
     color: #96B7E0;
 }
@@ -50,17 +50,42 @@ header {
     opacity: 100%;
 }
 
-.circle-larger {
+/* .circle-larger {
     min-width: 60vw;
     min-height: 60vw;
     border-radius: 50%;
     opacity: 100%;
-}
+} */
 
 @media (max-height: 640px) {
     .h1 {
         font-size: 80px;
         padding-top: 12rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .top{
+        min-height: calc(60vh - 83px);
+        height: calc(60vh - 83px);
+    }
+
+    .h1 {
+        margin-top: 18rem;
+    }
+
+    .bottom{
+        min-height: 40vh !important;
+    }
+
+    .bottom-text{
+        margin: 29vw 1rem auto 1rem;
+        font-size: calc(1em + 1.5vw);
+
+    }
+
+    .circle-container{
+        bottom: calc((60vh - 87px)/2);
     }
 }
 
