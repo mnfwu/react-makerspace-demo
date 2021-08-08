@@ -13,6 +13,23 @@
   text-align: left;
 }
 
+
+.h1 {
+  margin-top: 4rem;
+  color: #111118;
+  font-size: calc(4em + 5vw);
+  font-family: Terminal Grotesque, Helvetica, sans-serif;
+}
+
+.h2 {
+  margin-top: 4rem;
+  color: #111118;
+  font-size: calc(1em + 5vw) !important;
+  font-family: Terminal Grotesque, Helvetica, sans-serif;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

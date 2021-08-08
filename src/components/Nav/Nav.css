@@ -2,17 +2,17 @@ nav {
     padding: 2rem 20vw;
 }
 
-ul {
+.menu-desktop {
     display: flex;
     justify-content: space-between;
-    visibility: visible;
+    /* visibility: visible; */
 }
 
-li {
+.nav-link-desktop {
     display: inline-block;  
 }
 
-li a {
+.nav-link-desktop a {
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
@@ -20,7 +20,7 @@ li a {
     transition: 250ms ease-in-out;
 }
 
-li a:hover {
+.nav-link-desktop a:hover {
     color: #FF4100;
     transition: 250ms ease-in-out;
 }
